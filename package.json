@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "dotenv -- turbo run dev",
     "build": "dotenv -- turbo run build",
-    "start": "dotenv -- node apps/api/dist/main"
+    "start": "node apps/api/dist/main"
   },
   "workspaces": [
     "apps/*"
